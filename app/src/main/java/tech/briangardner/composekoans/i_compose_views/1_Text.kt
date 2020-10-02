@@ -22,7 +22,7 @@ object TextKoans {
     fun todoTask1(): Nothing = TODO(
         """
         Task 1.
-        Create a text element that displays "Hello Droidcon!" with a text size of 20 sp
+        Create a text element that displays "Hello Droidcon!" with a font size of 20 sp
         """,
     )
 
@@ -58,7 +58,9 @@ object TextKoans {
     fun todoTask4(): Nothing = TODO(
         """
         Task 4.
-        Create a text element that displays "Hello Droidcon!" with a right text align
+        Create a text element that displays "Hello Droidcon!" with an end text align.
+        Tip: Add `modifier = Modifier.fillMaxWidth()` to the Text element so you can see the
+        text alignment work in the preview and on an emulator
         """,
     )
 
@@ -70,9 +72,7 @@ object TextKoans {
     fun todoTask5(): Nothing = TODO(
         """
         Task 5.
-        Create a text element that displays "Hello Droidcon!" with 3 max lines.
-        Update the previewTask5() function at the bottom of the file to pass in 3 lines of
-        test text.
+        Create a text element that displays text with 3 max lines.
         """,
     )
 
@@ -84,9 +84,7 @@ object TextKoans {
     fun todoTask6(): Nothing = TODO(
         """
         Task 6.
-        Create a text element that displays "Hello Droidcon!" with an ellipsis overflow.
-        Update the previewTask5() function at the bottom of the file to pass in multiple lines
-        of test text to see the overflow.
+        Create a text element that displays text with an ellipsis overflow an one line max.
         """,
     )
 
@@ -100,7 +98,7 @@ object TextKoans {
         Task 7.
         Create a text element that displays "Hello Droidcon!" with a text style.
         This style should specify a dark gray text color, a 20 sp font size, and
-        a right text align.
+        an end text alignment
         """,
     )
 
@@ -135,19 +133,22 @@ fun previewTextTask3() {
     TextKoans.task3()
 }
 
-@Preview
+// Setting the width of the preview here so the text alignment is visible
+@Preview(widthDp = 400)
 @Composable
 fun previewTextTask4() {
     TextKoans.task4()
 }
 
-@Preview
+// Setting the width of the preview to test the max lines
+@Preview(widthDp = 400)
 @Composable
 fun previewTextTask5() {
     TextKoans.task5()
 }
 
-@Preview
+// Setting the width of the preview here to test the ellipsis overflow
+@Preview(widthDp = 400)
 @Composable
 fun previewTextTask6() {
     TextKoans.task6()
