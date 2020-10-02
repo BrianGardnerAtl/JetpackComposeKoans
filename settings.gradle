@@ -1,0 +1,2 @@
+rootProject.name = "ComposeKoans"
+include ':app'
