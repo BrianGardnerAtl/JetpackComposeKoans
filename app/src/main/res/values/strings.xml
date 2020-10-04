@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ComposeKoans</string>
+    <string name="welcome_message">Welcome to Compose with string resources!</string>
 </resources>
