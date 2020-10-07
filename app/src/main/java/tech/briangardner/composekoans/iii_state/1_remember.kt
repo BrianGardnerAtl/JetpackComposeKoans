@@ -3,9 +3,7 @@ package tech.briangardner.composekoans.iii_state
 import androidx.compose.foundation.Text
 import androidx.compose.foundation.layout.Column
 import androidx.compose.material.TextField
-import androidx.compose.runtime.Composable
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
+import androidx.compose.runtime.*
 import androidx.ui.tooling.preview.Preview
 import tech.briangardner.composekoans.iv_platform_compat.ViewModelKoans
 
@@ -20,10 +18,7 @@ object RememberKoans {
         component in the hierarchy.
         Use mutableStateOf() to create a string state for the composable
         - set an empty string as the original state
-        Use the remember {} function to save the current string state.
-        - It's important to do this otherwise a new state object is created every time the component
-          is recomposed.
-        This function can return the current value as well as an update function.
+        - This function can return the current value as well as an update function.
         Pass these to the Text and TextField.
         Run the previewRememberTask0 function at the bottom of the file on an emulator. You should
         see the contents of the Text composable update to match whatever you enter in the
@@ -33,7 +28,7 @@ object RememberKoans {
 
     @Composable
     fun task0() {
-        val (state, setState) = remember { mutableStateOf("") }
+        val (state, setState) = mutableStateOf("")
         Column {
             Text(text = state)
             TextField(value = state, onValueChange = setState)
@@ -44,13 +39,21 @@ object RememberKoans {
     fun todoTask1(): Nothing = TODO(
         """
         Task 1.
-        
+        Copy the implementation from task0 above.
+        Use the remember {} function to have the composable remember the current state.
+        - It's important to do this otherwise a new state object is created every time the component
+          is recomposed.
         """,
     )
 
     @Composable
     fun task1() {
-        todoTask1()
+        val (state, setState) = remember { mutableStateOf("") }
+        Column {
+            Text(text = state)
+            TextField(value = state, onValueChange = setState)
+        }
+        //todoTask1()
     }
 }
 

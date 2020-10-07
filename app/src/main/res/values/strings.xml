@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">ComposeKoans</string>
     <string name="welcome_message">Welcome to Compose with string resources!</string>
+    <string name="compose_view_text">This text is rendered using the platform\'s TextView</string>
 </resources>

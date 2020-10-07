@@ -9,10 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ComposeKoans">
-        <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.ComposeKoans.NoActionBar">
+        <activity android:name=".iv_platform_compat.ComposeViewActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
