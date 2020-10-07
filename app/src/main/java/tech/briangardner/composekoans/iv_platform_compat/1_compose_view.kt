@@ -9,7 +9,6 @@ object ComposeViewKoans {
         - Provide an id of compose_view
         - Provide a match_parent layout width
         - Provide a wrap_content layout height
-        
         """,
     )
 

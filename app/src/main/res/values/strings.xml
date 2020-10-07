@@ -2,4 +2,7 @@
     <string name="app_name">ComposeKoans</string>
     <string name="welcome_message">Welcome to Compose with string resources!</string>
     <string name="compose_view_text">This text is rendered using the platform\'s TextView</string>
+
+    <string name="first_android_text">First Android Text</string>
+    <string name="second_android_text">Second Android Text</string>
 </resources>
