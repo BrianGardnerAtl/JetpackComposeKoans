@@ -14,7 +14,7 @@ object ThemeKoans {
         Pass the dark theme if the system is in dark theme, else pass the light theme.
         Pass the typography.
         Pass the contents to display in the theme.
-        Tip: The content do display is passed as the parameter to the task0 function.
+        Tip: The content to display is passed as the parameter to the task0 function.
         """,
     )
 
@@ -41,14 +41,6 @@ object ThemeKoans {
 }
 
 // Preview functions
-@Preview
-@Composable
-fun previewThemeTask0() {
-    ThemeKoans.task0 {
-        // TODO:
-    }
-}
-
 @Preview
 @Composable
 fun previewThemeTask1() {
