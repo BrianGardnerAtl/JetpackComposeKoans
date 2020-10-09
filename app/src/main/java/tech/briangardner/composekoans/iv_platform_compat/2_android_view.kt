@@ -1,15 +1,11 @@
 package tech.briangardner.composekoans.iv_platform_compat
 
 import android.content.Context
-import android.view.View
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.compose.foundation.Text
 import androidx.compose.foundation.layout.Column
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.remember
-import androidx.compose.ui.platform.ContextAmbient
-import androidx.compose.ui.viewinterop.AndroidView
 import androidx.ui.tooling.preview.Preview
 import tech.briangardner.composekoans.R
 

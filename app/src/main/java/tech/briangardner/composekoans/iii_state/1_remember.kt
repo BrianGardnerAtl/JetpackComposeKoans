@@ -5,7 +5,6 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.material.TextField
 import androidx.compose.runtime.*
 import androidx.ui.tooling.preview.Preview
-import tech.briangardner.composekoans.iv_platform_compat.ViewModelKoans
 
 object RememberKoans {
 

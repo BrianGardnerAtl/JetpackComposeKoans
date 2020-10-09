@@ -1,8 +1,6 @@
 package tech.briangardner.composekoans.v_theme
 
-import androidx.compose.material.Typography
 import androidx.compose.runtime.Composable
-import androidx.ui.tooling.preview.Preview
 
 object TypographyKoans {
 
@@ -36,17 +34,4 @@ object TypographyKoans {
     fun task1() {
         todoTask1()
     }
-}
-
-// Preview functions
-@Preview
-@Composable
-fun previewTypographyTask0() {
-    TypographyKoans.task0()
-}
-
-@Preview
-@Composable
-fun previewTypographyTask1() {
-    TypographyKoans.task1()
 }

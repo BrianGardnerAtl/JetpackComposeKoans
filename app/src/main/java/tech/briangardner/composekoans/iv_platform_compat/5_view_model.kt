@@ -15,6 +15,7 @@ object ViewModelKoans {
         Access SimpleViewModel within the composable function.
         Access the viewState LiveData as state and display it as Text.
         Pass a clickable modifier to the Text that calls updateState() on the view model.
+        Run previewViewModelTask0() on an emulator to see the state update.
         """,
     )
 
@@ -30,6 +31,7 @@ object ViewModelKoans {
         ComplexViewModelFactory with an initial state of 10 when accessing the ViewModel.
         Access the viewState LiveData as state and display it as Text.
         Pass a clickable modifier to the Text that calls updateState() on the view model.
+        Run previewViewModelTask1() on an emulator to see the state update.
         """,
     )
 

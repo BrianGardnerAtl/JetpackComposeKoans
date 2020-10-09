@@ -1,8 +1,6 @@
 package tech.briangardner.composekoans.i_compose_views
 
-import androidx.compose.foundation.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.text.TextStyle
 import androidx.ui.tooling.preview.Preview
 
 object TextKoans {

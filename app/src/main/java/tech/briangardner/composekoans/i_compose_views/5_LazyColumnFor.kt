@@ -4,7 +4,7 @@ import androidx.compose.runtime.Composable
 
 object LazyColumnForKoans {
 
-    val rowItems = listOf<String>(
+    val rowItems = listOf(
         "Jetpack Compose",
         "Navigation",
         "WorkManager",

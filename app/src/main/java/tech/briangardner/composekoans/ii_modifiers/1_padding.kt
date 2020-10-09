@@ -1,8 +1,6 @@
 package tech.briangardner.composekoans.ii_modifiers
 
-import androidx.compose.foundation.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
 import androidx.ui.tooling.preview.Preview
 
 object PaddingKoans {

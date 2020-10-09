@@ -1,6 +1,5 @@
 package tech.briangardner.composekoans.i_compose_views
 
-import androidx.compose.foundation.Box
 import androidx.compose.runtime.Composable
 import androidx.ui.tooling.preview.Preview
 
@@ -44,8 +43,8 @@ object BoxKoans {
 
     fun todoTask3(): Nothing = TODO(
         """
-        Task 3.
-        Set the box border
+        Task 4.
+        Set an 8 dp padding
         """,
     )
 
@@ -56,26 +55,14 @@ object BoxKoans {
 
     fun todoTask4(): Nothing = TODO(
         """
-        Task 4.
-        Set an 8 dp padding
-        """,
-    )
-
-    @Composable
-    fun task4() {
-        todoTask4()
-    }
-
-    fun todoTask5(): Nothing = TODO(
-        """
         Task 5.
         Set the gravity of the box to bottom center
         """,
     )
 
     @Composable
-    fun task5() {
-        todoTask5()
+    fun task4() {
+        todoTask4()
     }
 }
 
@@ -108,10 +95,4 @@ fun previewBoxTask3() {
 @Composable
 fun previewBoxTask4() {
     BoxKoans.task4()
-}
-
-@Preview
-@Composable
-fun previewBoxTask5() {
-    BoxKoans.task5()
 }

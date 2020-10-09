@@ -2,7 +2,6 @@ package tech.briangardner.composekoans.vi_create_screen
 
 import androidx.compose.runtime.Composable
 import androidx.ui.tooling.preview.Preview
-import tech.briangardner.composekoans.v_theme.ThemeKoans
 
 object ScaffoldKoans {
 
@@ -45,13 +44,12 @@ object ScaffoldKoans {
     fun todoTask2(): Nothing = TODO(
         """
         Task 2.
-                Create a Scaffold.
+        Create a Scaffold.
         - Pull one of the TopAppBars from TopAppBarKoans
         - Pull the BottomAppBar from task1 in BottomAppBarKoans
         Pass in the TopAppBar and BottomAppBar to the Scaffold.
         Create a Text with content "Hello Compose!" as the bodyContent
         Add a FloatingActionButton to the Scaffold
-        - pass the secondary color from the theme as the background color
         - Create an Icon for the button contents with the ic_add vector asset
         """,
     )

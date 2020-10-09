@@ -10,6 +10,7 @@ object ClickableKoans {
         Task 0.
         Create a Text with "Hello Droidcon!" content.
         Add a clickable modifier that logs a message to logcat.
+        Run previewClickableKoansTask0() in an emulator to see the log message
         """,
     )
 

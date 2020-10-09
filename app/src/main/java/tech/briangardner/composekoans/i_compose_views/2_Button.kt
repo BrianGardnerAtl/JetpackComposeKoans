@@ -1,5 +1,8 @@
 package tech.briangardner.composekoans.i_compose_views
 
+import android.util.Log
+import androidx.compose.foundation.Text
+import androidx.compose.material.Button
 import androidx.compose.runtime.Composable
 import androidx.ui.tooling.preview.Preview
 
@@ -21,6 +24,7 @@ object ButtonKoans {
         """
         Task 1.
         Display a button that displays "Click me!" with a click listener that logs a click message.
+        Run previewButtonTask1() in an emulator to see the log message.
         """,
     )
 

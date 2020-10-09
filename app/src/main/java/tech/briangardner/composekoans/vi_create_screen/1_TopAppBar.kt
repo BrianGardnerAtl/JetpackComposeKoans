@@ -2,7 +2,6 @@ package tech.briangardner.composekoans.vi_create_screen
 
 import androidx.compose.runtime.Composable
 import androidx.ui.tooling.preview.Preview
-import tech.briangardner.composekoans.v_theme.TypographyKoans
 
 object TopAppBarKoans {
 

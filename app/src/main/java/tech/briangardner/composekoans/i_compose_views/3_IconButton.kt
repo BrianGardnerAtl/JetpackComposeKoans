@@ -56,7 +56,8 @@ object IconButtonKoans {
     fun todoTask4(): Nothing = TODO(
         """
         Task 4.
-        Show an icon button with the heart icon and add a click listener to log a message
+        Show an icon button with the heart icon and add a click listener to log a message.
+        Run previewIconButtonTask4() in an emulator to see the log message.
         """,
     )
 
