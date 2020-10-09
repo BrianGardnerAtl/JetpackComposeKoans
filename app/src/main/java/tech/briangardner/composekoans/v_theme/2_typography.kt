@@ -25,8 +25,8 @@ object TypographyKoans {
         Task 1.
         Create a Typography object.
         Copy over the font family from task 0 above.
-        Setup h1 and h2 in the typography.
-        Setup body1 and subtitle1.
+        Setup h1 in the typography.
+        Setup body1 as well.
         """,
     )
 
